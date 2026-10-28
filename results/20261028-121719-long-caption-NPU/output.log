@@ -1,0 +1,15 @@
+vision_embeddings_model NPU compile_s 0.107 execution_devices NPU
+text_embeddings_model GPU compile_s 0.1 execution_devices ['GPU.0']
+language_model GPU compile_s 1.045 execution_devices ['GPU.0']
+Warmups: 2
+Warmup caption: A fluffy white dog with long, wavy fur is sitting on a lush green lawn. The dog appears to be in a garden or park, with a backdrop of trees and shrubs. The dog's posture is relaxed, with its front paws resting on the ground and its back legs stretched out, possibly in a resting or resting position. The setting suggests a tranquil and natural environment.
+Completed: 12 Throughput: 1.634 requests/s
+e2e_ms p50 4195.97 p95 7028.62
+vision_wait_ms p50 667.01 p95 1202.87
+vision_ms p50 109.18 p95 140.02
+decoder_wait_ms p50 2844.86 p95 5146.68
+prep_ms p50 0.53 p95 1.25
+ttft_ms p50 57.63 p95 74.4
+decode_ms p50 571.78 p95 718.2
+Captions identical: True
+CSV: runs/20261028-121719-long-caption-NPU/results.csv

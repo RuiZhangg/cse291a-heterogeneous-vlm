@@ -1,0 +1,15 @@
+vision_embeddings_model NPU compile_s 0.108 execution_devices NPU
+text_embeddings_model GPU compile_s 0.1 execution_devices ['GPU.0']
+language_model GPU compile_s 1.071 execution_devices ['GPU.0']
+Warmups: 2
+Warmup caption: A fluffy white dog with long, wavy fur is sitting on a lush green lawn. The dog appears to be in a garden or park, with a backdrop
+Completed: 24 Throughput: 3.346 requests/s
+e2e_ms p50 4086.86 p95 6863.09
+vision_wait_ms p50 1306.69 p95 2420.42
+vision_ms p50 108.92 p95 116.89
+decoder_wait_ms p50 2405.07 p95 4064.71
+prep_ms p50 0.51 p95 0.69
+ttft_ms p50 57.22 p95 68.75
+decode_ms p50 267.71 p95 348.48
+Captions identical: True
+CSV: runs/20261028-122438-equal-tokens/tokens-32-NPU/results.csv

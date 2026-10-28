@@ -1,0 +1,15 @@
+vision_embeddings_model GPU compile_s 1.333 execution_devices ['GPU.0']
+text_embeddings_model GPU compile_s 0.058 execution_devices ['GPU.0']
+language_model GPU compile_s 1.067 execution_devices ['GPU.0']
+Warmups: 2
+Warmup caption: A white dog with long, flowing fur is sitting on a lawn.
+Completed: 24 Throughput: 4.439 requests/s
+e2e_ms p50 740.67 p95 966.93
+vision_wait_ms p50 0.11 p95 0.13
+vision_ms p50 72.07 p95 79.38
+decoder_wait_ms p50 437.16 p95 695.51
+prep_ms p50 0.5 p95 0.58
+ttft_ms p50 57.03 p95 124.32
+decode_ms p50 225.88 p95 293.4
+Captions identical: True
+CSV: runs/20261028-115522-arrival-sweep/rate-5-rep-2-GPU/results.csv

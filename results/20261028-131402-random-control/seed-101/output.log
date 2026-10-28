@@ -1,0 +1,17 @@
+vision_embeddings_model GPU compile_s 1.36 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.102 execution_devices NPU
+text_embeddings_model GPU compile_s 0.056 execution_devices ['GPU.0']
+language_model GPU compile_s 1.06 execution_devices ['GPU.0']
+Loaded video frames: 40
+Warmups: 2
+Warmup caption: An empty room with wooden flooring.
+Completed: 120 Throughput: 3.699 requests/s
+e2e_ms p50 430.81 p95 1039.76
+vision_wait_ms p50 0.13 p95 179.8
+vision_ms p50 115.77 p95 164.65
+decoder_wait_ms p50 100.45 p95 639.1
+prep_ms p50 0.55 p95 1.26
+ttft_ms p50 62.84 p95 80.8
+decode_ms p50 155.49 p95 248.84
+Captions identical: False
+CSV: runs/20261028-131402-random-control/seed-101/results.csv

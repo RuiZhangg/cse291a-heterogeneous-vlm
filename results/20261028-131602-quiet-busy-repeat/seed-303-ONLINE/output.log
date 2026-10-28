@@ -1,0 +1,17 @@
+vision_embeddings_model GPU compile_s 1.347 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.1 execution_devices NPU
+text_embeddings_model GPU compile_s 0.056 execution_devices ['GPU.0']
+language_model GPU compile_s 1.063 execution_devices ['GPU.0']
+Loaded video frames: 40
+Warmups: 2
+Warmup caption: An empty room with wooden flooring.
+Completed: 72 Throughput: 2.404 requests/s
+e2e_ms p50 288.52 p95 768.35
+vision_wait_ms p50 0.11 p95 223.16
+vision_ms p50 104.3 p95 169.53
+decoder_wait_ms p50 0.11 p95 342.53
+prep_ms p50 0.71 p95 1.15
+ttft_ms p50 58.78 p95 71.9
+decode_ms p50 140.17 p95 198.52
+Captions identical: False
+CSV: runs/20261028-131602-quiet-busy-repeat/seed-303-ONLINE/results.csv

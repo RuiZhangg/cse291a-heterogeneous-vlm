@@ -1,0 +1,21 @@
+
+===== GPU =====
+Compilation: 1.669 s
+Actual device: ['GPU.0']
+Output shape: (1, 256, 896)
+Median latency: 68.27 ms
+p95 latency: 68.48 ms
+Mean latency: 68.3 ms
+
+===== NPU =====
+Compilation: 0.109 s
+Actual device: NPU
+Output shape: (1, 256, 896)
+Median latency: 93.96 ms
+p95 latency: 94.04 ms
+Mean latency: 93.96 ms
+
+===== FEATURE AGREEMENT =====
+GPU/NPU cosine similarity: 0.999384789376088
+Relative L2 difference: 0.03510195413880649
+All outputs finite: True

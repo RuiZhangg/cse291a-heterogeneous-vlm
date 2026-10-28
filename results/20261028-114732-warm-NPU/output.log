@@ -1,0 +1,155 @@
+Loading tokenizer...
+Compiling models...
+vision_embeddings_model on NPU: compiled in 0.10s
+  Actual device: NPU
+text_embeddings_model on GPU: compiled in 0.10s
+  Actual device: ['GPU.0']
+language_model on GPU: compiled in 1.04s
+  Actual device: ['GPU.0']
+
+===== REPEATED BENCHMARK =====
+
+Request 1
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: NPU
+Caption: A white dog with long, fluffy fur is sitting on a lawn.
+Vision encoding: 184.6 ms
+First token: 240.68 ms
+Decoder duration: 0.373 s
+Generated tokens: 14
+SUCCESS
+
+Request 2
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: NPU
+Caption: A white dog with long, fluffy fur is sitting on a lawn.
+Vision encoding: 158.62 ms
+First token: 73.89 ms
+Decoder duration: 0.175 s
+Generated tokens: 14
+SUCCESS
+
+Request 3
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: NPU
+Caption: A white dog with long, fluffy fur is sitting on a lawn.
+Vision encoding: 150.66 ms
+First token: 71.0 ms
+Decoder duration: 0.172 s
+Generated tokens: 14
+SUCCESS
+
+Request 4
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: NPU
+Caption: A white dog with long, fluffy fur is sitting on a lawn.
+Vision encoding: 150.32 ms
+First token: 70.93 ms
+Decoder duration: 0.172 s
+Generated tokens: 14
+SUCCESS
+
+Request 5
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: NPU
+Caption: A white dog with long, fluffy fur is sitting on a lawn.
+Vision encoding: 150.33 ms
+First token: 71.19 ms
+Decoder duration: 0.172 s
+Generated tokens: 14
+SUCCESS
+
+Request 6
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: NPU
+Caption: A white dog with long, fluffy fur is sitting on a lawn.
+Vision encoding: 150.45 ms
+First token: 71.67 ms
+Decoder duration: 0.172 s
+Generated tokens: 14
+SUCCESS
+
+Request 7
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: NPU
+Caption: A white dog with long, fluffy fur is sitting on a lawn.
+Vision encoding: 150.31 ms
+First token: 71.16 ms
+Decoder duration: 0.172 s
+Generated tokens: 14
+SUCCESS
+
+Request 8
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: NPU
+Caption: A white dog with long, fluffy fur is sitting on a lawn.
+Vision encoding: 150.16 ms
+First token: 71.35 ms
+Decoder duration: 0.172 s
+Generated tokens: 14
+SUCCESS
+
+Request 9
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: NPU
+Caption: A white dog with long, fluffy fur is sitting on a lawn.
+Vision encoding: 150.24 ms
+First token: 71.84 ms
+Decoder duration: 0.173 s
+Generated tokens: 14
+SUCCESS
+
+Request 10
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: NPU
+Caption: A white dog with long, fluffy fur is sitting on a lawn.
+Vision encoding: 150.28 ms
+First token: 71.14 ms
+Decoder duration: 0.172 s
+Generated tokens: 14
+SUCCESS
+e2e_ms: median=325.17, p95=325.93, mean=325.26
+vision_ms: median=150.31, p95=150.59, mean=150.34
+ttft_ms: median=71.18, p95=71.78, mean=71.28
+decoder_ms: median=171.87, p95=172.61, mean=172.02
+Token counts: [14, 14, 14, 14, 14, 14, 14, 14]

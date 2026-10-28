@@ -1,0 +1,20 @@
+Loading tokenizer...
+Compiling models...
+vision_embeddings_model on NPU: compiled in 0.10s
+  Actual device: NPU
+text_embeddings_model on GPU: compiled in 0.11s
+  Actual device: ['GPU.0']
+language_model on GPU: compiled in 1.09s
+  Actual device: ['GPU.0']
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: NPU
+Caption: A white dog with long, fluffy fur is sitting on a lawn.
+Vision encoding: 186.13 ms
+First token: 256.34 ms
+Decoder duration: 0.39 s
+Generated tokens: 14
+SUCCESS

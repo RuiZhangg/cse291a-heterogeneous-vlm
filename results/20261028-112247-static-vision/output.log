@@ -1,0 +1,12 @@
+Original input: [?,3,?,?]
+Static input: [1,3,448,448]
+Static output: [1,256,896]
+
+Testing NPU
+Compile time: 42.26258455822244
+Execution devices: NPU
+First inference: 0.18302845116704702
+Output shape: (1, 256, 896)
+Output finite: True
+Warm mean: 0.09742526533082127
+SUCCESS

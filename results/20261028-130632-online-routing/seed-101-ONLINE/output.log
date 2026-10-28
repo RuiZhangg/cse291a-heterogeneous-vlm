@@ -1,0 +1,17 @@
+vision_embeddings_model GPU compile_s 1.346 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.098 execution_devices NPU
+text_embeddings_model GPU compile_s 0.055 execution_devices ['GPU.0']
+language_model GPU compile_s 1.056 execution_devices ['GPU.0']
+Loaded video frames: 40
+Warmups: 2
+Warmup caption: An empty room with wooden flooring.
+Completed: 120 Throughput: 3.717 requests/s
+e2e_ms p50 347.92 p95 840.24
+vision_wait_ms p50 0.14 p95 189.51
+vision_ms p50 108.33 p95 165.17
+decoder_wait_ms p50 2.26 p95 487.58
+prep_ms p50 0.62 p95 1.06
+ttft_ms p50 62.72 p95 76.23
+decode_ms p50 146.55 p95 202.56
+Captions identical: False
+CSV: runs/20261028-130632-online-routing/seed-101-ONLINE/results.csv

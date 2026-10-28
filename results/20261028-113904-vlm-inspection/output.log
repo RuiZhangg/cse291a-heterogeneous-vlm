@@ -1,0 +1,31 @@
+
+========== openvino_vision_embeddings_model ==========
+Inputs: 1
+  pixel_values [?,3,?,?] <Type: 'float32'>
+Outputs: 1
+  last_hidden_state [?,256,896] <Type: 'float32'>
+State sinks: 0
+
+========== openvino_text_embeddings_model ==========
+Inputs: 1
+  input [?,?] <Type: 'int64_t'>
+Outputs: 1
+  inputs_embeds [?,?,896] <Type: 'float32'>
+State sinks: 0
+
+========== openvino_language_model ==========
+Inputs: 4
+  attention_mask [?,?] <Type: 'int64_t'>
+  position_ids [?,?] <Type: 'int64_t'>
+  inputs_embeds [?,?,896] <Type: 'float32'>
+  beam_idx [?] <Type: 'int32_t'>
+Outputs: 1
+  logits [?,?,151655] <Type: 'float32'>
+State sinks: 48
+
+========== config.json ==========
+model_type : internvl_chat
+vision_config : {'model_type': 'intern_vit_6b', 'hidden_size': 1024, 'image_size': 448, 'patch_size': 14, 'architectures': ['InternVisionModel']}
+
+========== preprocessor_config.json ==========
+crop_size : {}

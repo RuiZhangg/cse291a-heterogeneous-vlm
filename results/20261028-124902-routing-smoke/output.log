@@ -1,0 +1,17 @@
+vision_embeddings_model GPU compile_s 1.351 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.098 execution_devices NPU
+text_embeddings_model GPU compile_s 0.056 execution_devices ['GPU.0']
+language_model GPU compile_s 1.05 execution_devices ['GPU.0']
+Loaded video frames: 40
+Warmups: 1
+Warmup caption: An empty room with wooden flooring.
+Completed: 12 Throughput: 4.379 requests/s
+e2e_ms p50 219.34 p95 330.8
+vision_wait_ms p50 0.09 p95 0.16
+vision_ms p50 76.54 p95 144.79
+decoder_wait_ms p50 0.11 p95 10.27
+prep_ms p50 0.62 p95 1.16
+ttft_ms p50 56.79 p95 70.01
+decode_ms p50 129.88 p95 197.98
+Captions identical: False
+CSV: runs/20261028-124902-routing-smoke/results.csv

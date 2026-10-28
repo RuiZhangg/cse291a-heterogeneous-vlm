@@ -1,0 +1,17 @@
+vision_embeddings_model GPU compile_s 1.344 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.099 execution_devices NPU
+text_embeddings_model GPU compile_s 0.057 execution_devices ['GPU.0']
+language_model GPU compile_s 1.07 execution_devices ['GPU.0']
+Loaded video frames: 40
+Warmups: 2
+Warmup caption: An empty room with wooden flooring.
+Completed: 120 Throughput: 4.004 requests/s
+e2e_ms p50 547.19 p95 1481.96
+vision_wait_ms p50 0.13 p95 460.18
+vision_ms p50 81.9 p95 156.82
+decoder_wait_ms p50 258.45 p95 938.85
+prep_ms p50 0.55 p95 1.08
+ttft_ms p50 56.94 p95 123.73
+decode_ms p50 152.23 p95 302.19
+Captions identical: False
+CSV: runs/20261028-125653-poisson-routing/seed-303-ORACLE/results.csv

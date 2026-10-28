@@ -1,0 +1,38 @@
+# Model weights, environments and caches
+/models/
+/envs/
+/cache/
+/.venv/
+/venv/
+
+# Original datasets, videos and extracted frames
+/data/
+
+# Raw experiment directories (curated copies go in results/)
+/runs/
+/logs/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Sensitive configuration
+.env
+.env.*
+*.pem
+*.key
+*.token
+*credentials*
+
+# Large model and media files
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.mp4
+*.mov
+*.bin
+
+.DS_Store

@@ -1,0 +1,155 @@
+Loading tokenizer...
+Compiling models...
+vision_embeddings_model on GPU: compiled in 1.39s
+  Actual device: ['GPU.0']
+text_embeddings_model on GPU: compiled in 0.06s
+  Actual device: ['GPU.0']
+language_model on GPU: compiled in 1.08s
+  Actual device: ['GPU.0']
+
+===== REPEATED BENCHMARK =====
+
+Request 1
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: GPU
+Caption: A white dog with long, flowing fur is sitting on a lawn.
+Vision encoding: 94.54 ms
+First token: 242.59 ms
+Decoder duration: 0.378 s
+Generated tokens: 14
+SUCCESS
+
+Request 2
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: GPU
+Caption: A white dog with long, flowing fur is sitting on a lawn.
+Vision encoding: 68.28 ms
+First token: 63.89 ms
+Decoder duration: 0.166 s
+Generated tokens: 14
+SUCCESS
+
+Request 3
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: GPU
+Caption: A white dog with long, flowing fur is sitting on a lawn.
+Vision encoding: 68.77 ms
+First token: 58.16 ms
+Decoder duration: 0.161 s
+Generated tokens: 14
+SUCCESS
+
+Request 4
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: GPU
+Caption: A white dog with long, flowing fur is sitting on a lawn.
+Vision encoding: 68.78 ms
+First token: 58.21 ms
+Decoder duration: 0.16 s
+Generated tokens: 14
+SUCCESS
+
+Request 5
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: GPU
+Caption: A white dog with long, flowing fur is sitting on a lawn.
+Vision encoding: 68.82 ms
+First token: 58.42 ms
+Decoder duration: 0.161 s
+Generated tokens: 14
+SUCCESS
+
+Request 6
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: GPU
+Caption: A white dog with long, flowing fur is sitting on a lawn.
+Vision encoding: 68.67 ms
+First token: 58.19 ms
+Decoder duration: 0.16 s
+Generated tokens: 14
+SUCCESS
+
+Request 7
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: GPU
+Caption: A white dog with long, flowing fur is sitting on a lawn.
+Vision encoding: 68.51 ms
+First token: 57.99 ms
+Decoder duration: 0.161 s
+Generated tokens: 14
+SUCCESS
+
+Request 8
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: GPU
+Caption: A white dog with long, flowing fur is sitting on a lawn.
+Vision encoding: 68.49 ms
+First token: 58.0 ms
+Decoder duration: 0.16 s
+Generated tokens: 14
+SUCCESS
+
+Request 9
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: GPU
+Caption: A white dog with long, flowing fur is sitting on a lawn.
+Vision encoding: 68.57 ms
+First token: 58.04 ms
+Decoder duration: 0.16 s
+Generated tokens: 14
+SUCCESS
+
+Request 10
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: GPU
+Caption: A white dog with long, flowing fur is sitting on a lawn.
+Vision encoding: 68.47 ms
+First token: 58.12 ms
+Decoder duration: 0.16 s
+Generated tokens: 14
+SUCCESS
+e2e_ms: median=231.68, p95=232.14, mean=231.67
+vision_ms: median=68.62, p95=68.80, mean=68.63
+ttft_ms: median=58.14, p95=58.35, mean=58.14
+decoder_ms: median=160.40, p95=160.68, mean=160.38
+Token counts: [14, 14, 14, 14, 14, 14, 14, 14]

@@ -1,0 +1,20 @@
+Loading tokenizer...
+Compiling models...
+vision_embeddings_model on GPU: compiled in 1.33s
+  Actual device: ['GPU.0']
+text_embeddings_model on GPU: compiled in 0.06s
+  Actual device: ['GPU.0']
+language_model on GPU: compiled in 2.88s
+  Actual device: ['GPU.0']
+Vision output: (1, 256, 896)
+Image placeholder count: 256
+Combined embeddings: (1, 289, 896)
+
+===== RESULT =====
+Vision device: GPU
+Caption: A white dog with long, flowing fur is sitting on a lawn.
+Vision encoding: 99.37 ms
+First token: 240.49 ms
+Decoder duration: 0.375 s
+Generated tokens: 14
+SUCCESS

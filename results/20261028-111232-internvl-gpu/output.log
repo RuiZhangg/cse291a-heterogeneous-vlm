@@ -1,0 +1,13 @@
+Device: GPU
+Model: models/InternVL2-1B-int4-ov
+OpenVINO: 2026.1.0-21367-63e31528c62-releases/2026/1
+Pipeline initialization: 4.667 s
+Image shape: (1, 1213, 1546, 3)
+
+===== CAPTION =====
+A white dog with long fur is sitting on a lawn.
+
+First generation: 2.229 s
+Warm generation: 1.213 s
+
+SUCCESS

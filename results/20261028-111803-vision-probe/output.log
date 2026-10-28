@@ -1,0 +1,26 @@
+OpenVINO: 2026.1.0-21367-63e31528c62-releases/2026/1
+
+===== INPUTS =====
+pixel_values [?,3,?,?] <Type: 'float32'>
+
+===== OUTPUTS =====
+last_hidden_state [?,256,896] <Type: 'float32'>
+
+===== CPU =====
+Compile time: 0.297 s
+Execution devices: ['CPU']
+COMPILATION SUCCESS
+
+===== GPU =====
+Compile time: 0.696 s
+Execution devices: ['GPU.0']
+COMPILATION SUCCESS
+
+===== NPU =====
+[ERROR] 11:18:05.170 [IE::FrontEnd::importNetwork]   Upper bounds are not specified for node '__module.vision_model.embeddings.patch_embedding/aten::_convolution/Convolution' (type 'Convolution'): input '0' bounds are '[9223372036854775807, 3, 9223372036854775807, 9223372036854775807]'
+[ERROR] 11:18:05.170 [IE::FrontEnd::importNetwork]   Upper bounds are not specified for node '__module.vision_model.embeddings/aten::transpose/Transpose' (type 'Transpose'): input '0' bounds are '[9223372036854775807, 1024, 9223372036854775807]'
+[ERROR] 11:18:05.170 [vpux-compiler] Got Diagnostic at loc(fused<{name = "__module.vision_model.embeddings/aten::cat/Concat", type = "Concat"}>["__module.vision_model.embeddings/aten::cat/Concat"]) : Concat with offset '0' and stride '1' doesn't fit to output dimension '-9223372036854775807'
+loc(fused<{name = "__module.vision_model.embeddings/aten::cat/Concat", type = "Concat"}>["__module.vision_model.embeddings/aten::cat/Concat"]): error: Concat with offset '0' and stride '1' doesn't fit to output dimension '-9223372036854775807'
+LLVM ERROR: Failed to infer result type(s):
+"IE.Concat"(...) {} : (tensor<?x1x1024xf32, {bounds = #const.OpaqueI64Elements<[9223372036854775807, 1, 1024]> : tensor<3xsi64>, order = affine_map<(d0, d1, d2) -> (d0, d1, d2)>}>, tensor<?x?x1024xf32, {bounds = #const.OpaqueI64Elements<[9223372036854775807, 9223372036854775807, 1024]> : tensor<3xsi64>, order = affine_map<(d0, d1, d2) -> (d0, d1, d2)>}>) -> ( ??? )
+timeout: the monitored command dumped core

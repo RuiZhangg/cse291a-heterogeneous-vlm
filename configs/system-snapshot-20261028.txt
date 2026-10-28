@@ -1,0 +1,11 @@
+2026-10-28T13:20:02-07:00
+Linux wuklab-NUC16 7.0.0-31-generic #31~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Aug 10 09:38:02 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+Python 3.12.3
+OpenVINO: 2026.1.0-21367-63e31528c62-releases/2026/1
+Available devices: ['CPU', 'GPU', 'NPU']
+CPU Intel(R) Core(TM) Ultra 7 356H
+GPU Intel(R) Graphics (iGPU)
+NPU Intel(R) AI Boost
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  457G  395G   39G  92% /
+1.6G	/data/project-03
