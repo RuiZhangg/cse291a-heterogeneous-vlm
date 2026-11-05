@@ -1,0 +1,135 @@
+================================================
+Rate=2.2, tiles=1, device=NPU
+Seed=101, requests=150
+Completed: 150 Throughput: 1.972 requests/s
+e2e_ms p50 326.36 p95 478.82
+vision_wait_ms p50 0.09 p95 123.76
+vision_ms p50 156.68 p95 164.28
+decoder_wait_ms p50 0.1 p95 153.2
+ttft_ms p50 71.45 p95 80.67
+decode_ms p50 148.43 p95 210.83
+Elapsed: 81s
+================================================
+Rate=1.2, tiles=5, device=GPU
+Seed=101, requests=150
+Completed: 150 Throughput: 1.072 requests/s
+e2e_ms p50 1363.68 p95 4310.33
+vision_wait_ms p50 0.13 p95 515.28
+vision_ms p50 356.06 p95 516.34
+decoder_wait_ms p50 385.99 p95 3337.25
+ttft_ms p50 272.39 p95 509.02
+decode_ms p50 376.87 p95 1263.87
+Elapsed: 147s
+================================================
+Rate=2.2, tiles=3, device=NPU
+Seed=101, requests=150
+Completed: 150 Throughput: 1.96 requests/s
+e2e_ms p50 719.06 p95 1412.08
+vision_wait_ms p50 74.81 p95 771.34
+vision_ms p50 317.68 p95 368.61
+decoder_wait_ms p50 0.1 p95 29.14
+ttft_ms p50 196.06 p95 201.49
+decode_ms p50 285.52 p95 351.62
+Elapsed: 83s
+================================================
+Rate=1.2, tiles=5, device=NPU
+Seed=101, requests=150
+Completed: 150 Throughput: 1.071 requests/s
+e2e_ms p50 1008.51 p95 2073.03
+vision_wait_ms p50 0.2 p95 1076.77
+vision_ms p50 525.01 p95 559.04
+decoder_wait_ms p50 0.1 p95 0.21
+ttft_ms p50 332.67 p95 338.21
+decode_ms p50 417.71 p95 497.56
+Elapsed: 147s
+================================================
+Rate=1.2, tiles=1, device=NPU
+Seed=101, requests=150
+Completed: 150 Throughput: 1.078 requests/s
+e2e_ms p50 313.91 p95 431.5
+vision_wait_ms p50 0.07 p95 95.55
+vision_ms p50 161.09 p95 165.65
+decoder_wait_ms p50 0.09 p95 69.33
+ttft_ms p50 71.69 p95 80.18
+decode_ms p50 146.24 p95 200.34
+Elapsed: 144s
+================================================
+Rate=1.2, tiles=3, device=GPU
+Seed=101, requests=150
+Completed: 150 Throughput: 1.075 requests/s
+e2e_ms p50 632.86 p95 1523.75
+vision_wait_ms p50 0.11 p95 168.5
+vision_ms p50 220.34 p95 278.63
+decoder_wait_ms p50 0.12 p95 638.03
+ttft_ms p50 157.8 p95 320.92
+decode_ms p50 239.64 p95 565.41
+Elapsed: 145s
+================================================
+Rate=1.2, tiles=1, device=GPU
+Seed=101, requests=150
+Completed: 150 Throughput: 1.079 requests/s
+e2e_ms p50 224.16 p95 394.35
+vision_wait_ms p50 0.11 p95 11.03
+vision_ms p50 83.8 p95 84.68
+decoder_wait_ms p50 0.1 p95 147.12
+ttft_ms p50 56.91 p95 73.71
+decode_ms p50 127.58 p95 220.97
+Elapsed: 144s
+================================================
+Rate=2.2, tiles=5, device=NPU
+Seed=101, requests=150
+Completed: 150 Throughput: 1.783 requests/s
+e2e_ms p50 4911.36 p95 7899.58
+vision_wait_ms p50 3937.66 p95 6949.91
+vision_ms p50 521.45 p95 530.75
+decoder_wait_ms p50 0.11 p95 0.21
+ttft_ms p50 335.58 p95 338.44
+decode_ms p50 434.7 p95 500.73
+Elapsed: 92s
+================================================
+Rate=1.2, tiles=3, device=NPU
+Seed=101, requests=150
+Completed: 150 Throughput: 1.074 requests/s
+e2e_ms p50 654.59 p95 910.3
+vision_wait_ms p50 0.1 p95 322.06
+vision_ms p50 361.48 p95 370.89
+decoder_wait_ms p50 0.1 p95 19.91
+ttft_ms p50 171.26 p95 202.15
+decode_ms p50 265.05 p95 336.52
+Elapsed: 145s
+================================================
+Rate=2.2, tiles=5, device=GPU
+Seed=101, requests=150
+Completed: 150 Throughput: 1.447 requests/s
+e2e_ms p50 28902.67 p95 35169.65
+vision_wait_ms p50 239.97 p95 1619.25
+vision_ms p50 359.76 p95 524.34
+decoder_wait_ms p50 27915.32 p95 33988.88
+ttft_ms p50 272.6 p95 515.18
+decode_ms p50 365.44 p95 1780.35
+Elapsed: 111s
+================================================
+Rate=2.2, tiles=1, device=GPU
+Seed=101, requests=150
+Completed: 150 Throughput: 1.973 requests/s
+e2e_ms p50 265.69 p95 559.75
+vision_wait_ms p50 0.11 p95 48.13
+vision_ms p50 83.1 p95 85.62
+decoder_wait_ms p50 0.12 p95 289.77
+ttft_ms p50 57.03 p95 124.57
+decode_ms p50 132.56 p95 280.27
+Elapsed: 81s
+================================================
+Rate=2.2, tiles=3, device=GPU
+Seed=101, requests=150
+Completed: 150 Throughput: 1.956 requests/s
+e2e_ms p50 1138.56 p95 3947.96
+vision_wait_ms p50 0.14 p95 304.45
+vision_ms p50 217.2 p95 280.59
+decoder_wait_ms p50 471.83 p95 3255.35
+ttft_ms p50 157.44 p95 318.61
+decode_ms p50 277.05 p95 835.98
+Elapsed: 83s
+
+ALL CONFIGURATIONS ATTEMPTED
+Results: runs/20261104-025447-phase1-seed-101

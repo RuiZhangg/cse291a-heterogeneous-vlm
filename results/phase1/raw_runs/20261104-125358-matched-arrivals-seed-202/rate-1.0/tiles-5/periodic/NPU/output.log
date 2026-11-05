@@ -1,0 +1,20 @@
+vision_embeddings_model GPU compile_s 1.317 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.102 execution_devices NPU
+text_embeddings_model GPU compile_s 0.058 execution_devices ['GPU.0']
+language_model GPU compile_s 1.086 execution_devices ['GPU.0']
+Loaded video frames: 40
+Image tiles per frame: 5 grid tiles: 4 thumbnail: True
+Warmups: 2
+Warmup caption: An empty room with wooden flooring and white walls.
+Arrival mode: periodic Planned duration s: 149.0
+Worker mode: serial Assignment: alternating GPU/NPU
+Completed: 150 Throughput: 1.001 requests/s
+e2e_ms p50 924.53 p95 976.77
+vision_wait_ms p50 0.09 p95 0.12
+vision_ms p50 554.81 p95 555.01
+decoder_wait_ms p50 0.1 p95 0.21
+prep_ms p50 2.31 p95 2.64
+ttft_ms p50 284.88 p95 285.62
+decode_ms p50 366.34 p95 418.49
+Captions identical: False
+CSV: runs/20261104-125358-matched-arrivals-seed-202/rate-1.0/tiles-5/periodic/NPU/results.csv

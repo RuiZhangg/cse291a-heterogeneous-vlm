@@ -1,0 +1,145 @@
+============================================
+rate=1.5 tiles=3 device=NPU
+Completed: 150 Throughput: 1.341 requests/s
+e2e_ms p50 662.37 p95 1051.87
+vision_wait_ms p50 0.12 p95 460.09
+vision_ms p50 355.57 p95 372.21
+decoder_wait_ms p50 0.1 p95 19.06
+decode_ms p50 276.46 p95 337.73
+Wall time: 118s
+============================================
+rate=1.5 tiles=3 device=GPU
+Completed: 150 Throughput: 1.341 requests/s
+e2e_ms p50 706.31 p95 1851.2
+vision_wait_ms p50 0.11 p95 199.71
+vision_ms p50 220.05 p95 277.78
+decoder_wait_ms p50 0.21 p95 1045.59
+decode_ms p50 239.84 p95 586.24
+Wall time: 118s
+============================================
+rate=1.8 tiles=3 device=GPU
+Completed: 150 Throughput: 1.607 requests/s
+e2e_ms p50 808.54 p95 2562.74
+vision_wait_ms p50 0.13 p95 222.07
+vision_ms p50 219.27 p95 281.51
+decoder_wait_ms p50 158.07 p95 1950.51
+decode_ms p50 253.26 p95 743.33
+Wall time: 99s
+============================================
+rate=1.8 tiles=3 device=NPU
+Completed: 150 Throughput: 1.607 requests/s
+e2e_ms p50 667.62 p95 1162.56
+vision_wait_ms p50 0.14 p95 569.85
+vision_ms p50 319.23 p95 369.87
+decoder_wait_ms p50 0.1 p95 21.74
+decode_ms p50 280.99 p95 339.81
+Wall time: 100s
+============================================
+rate=1.0 tiles=5 device=GPU
+Completed: 150 Throughput: 0.894 requests/s
+e2e_ms p50 1111.43 p95 3661.71
+vision_wait_ms p50 0.12 p95 355.49
+vision_ms p50 354.97 p95 517.04
+decoder_wait_ms p50 38.03 p95 2622.06
+decode_ms p50 375.94 p95 970.78
+Wall time: 175s
+============================================
+rate=1.0 tiles=5 device=NPU
+Completed: 150 Throughput: 0.894 requests/s
+e2e_ms p50 999.33 p95 1707.44
+vision_wait_ms p50 0.12 p95 807.21
+vision_ms p50 549.67 p95 559.32
+decoder_wait_ms p50 0.1 p95 0.21
+decode_ms p50 405.39 p95 492.13
+Wall time: 175s
+============================================
+rate=0.8 tiles=5 device=GPU
+Completed: 150 Throughput: 0.717 requests/s
+e2e_ms p50 991.05 p95 2739.56
+vision_wait_ms p50 0.12 p95 308.99
+vision_ms p50 355.4 p95 516.17
+decoder_wait_ms p50 0.12 p95 1109.42
+decode_ms p50 360.17 p95 912.2
+Wall time: 217s
+============================================
+rate=0.8 tiles=5 device=NPU
+Completed: 150 Throughput: 0.716 requests/s
+e2e_ms p50 986.02 p95 1471.78
+vision_wait_ms p50 0.1 p95 557.68
+vision_ms p50 554.35 p95 560.6
+decoder_wait_ms p50 0.1 p95 0.19
+decode_ms p50 383.22 p95 470.82
+Wall time: 217s
+============================================
+rate=1.8 tiles=5 device=NPU
+Completed: 150 Throughput: 1.593 requests/s
+e2e_ms p50 1461.69 p95 3695.57
+vision_wait_ms p50 486.98 p95 2704.17
+vision_ms p50 521.71 p95 556.16
+decoder_wait_ms p50 0.11 p95 0.21
+decode_ms p50 433.61 p95 500.72
+Wall time: 102s
+============================================
+rate=1.8 tiles=5 device=GPU
+Completed: 150 Throughput: 1.418 requests/s
+e2e_ms p50 13119.14 p95 20360.77
+vision_wait_ms p50 68.94 p95 930.38
+vision_ms p50 359.63 p95 520.55
+decoder_wait_ms p50 11691.08 p95 18759.46
+decode_ms p50 376.67 p95 1603.87
+Wall time: 113s
+============================================
+rate=2.0 tiles=3 device=NPU
+Completed: 150 Throughput: 1.784 requests/s
+e2e_ms p50 672.85 p95 1319.03
+vision_wait_ms p50 28.51 p95 672.79
+vision_ms p50 318.72 p95 370.81
+decoder_wait_ms p50 0.1 p95 22.66
+decode_ms p50 283.75 p95 343.04
+Wall time: 90s
+============================================
+rate=2.0 tiles=3 device=GPU
+Completed: 150 Throughput: 1.782 requests/s
+e2e_ms p50 1015.27 p95 3113.97
+vision_wait_ms p50 0.13 p95 270.08
+vision_ms p50 219.37 p95 285.45
+decoder_wait_ms p50 358.64 p95 2563.45
+decode_ms p50 287.57 p95 837.05
+Wall time: 90s
+============================================
+rate=1.4 tiles=5 device=NPU
+Completed: 150 Throughput: 1.248 requests/s
+e2e_ms p50 1118.43 p95 2285.98
+vision_wait_ms p50 129.77 p95 1319.99
+vision_ms p50 523.2 p95 558.4
+decoder_wait_ms p50 0.11 p95 0.22
+decode_ms p50 428.56 p95 500.34
+Wall time: 128s
+============================================
+rate=1.4 tiles=5 device=GPU
+Completed: 150 Throughput: 1.243 requests/s
+e2e_ms p50 1866.3 p95 6054.31
+vision_wait_ms p50 0.14 p95 617.51
+vision_ms p50 361.0 p95 519.2
+decoder_wait_ms p50 762.5 p95 4753.33
+decode_ms p50 383.9 p95 1363.09
+Wall time: 128s
+============================================
+rate=1.6 tiles=5 device=NPU
+Completed: 150 Throughput: 1.422 requests/s
+e2e_ms p50 1257.9 p95 2992.9
+vision_wait_ms p50 314.47 p95 2043.21
+vision_ms p50 521.81 p95 557.06
+decoder_wait_ms p50 0.11 p95 0.2
+decode_ms p50 432.3 p95 500.97
+Wall time: 113s
+============================================
+rate=1.6 tiles=5 device=GPU
+Completed: 150 Throughput: 1.388 requests/s
+e2e_ms p50 5381.38 p95 9183.46
+vision_wait_ms p50 0.18 p95 853.62
+vision_ms p50 361.77 p95 522.66
+decoder_wait_ms p50 4101.21 p95 7594.37
+decode_ms p50 401.5 p95 1488.41
+Wall time: 116s
+Finished. Results: runs/20261104-111556-phase1-rate-sweep-seed-101

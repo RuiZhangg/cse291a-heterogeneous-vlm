@@ -1,0 +1,13 @@
+root,rate,tiles,mode,n,same_token_count,same_caption
+20261104-115833-matched-arrivals-seed-101,1.5,3,periodic,150,76,68
+20261104-115833-matched-arrivals-seed-101,1.5,3,poisson-matched,150,76,68
+20261104-115833-matched-arrivals-seed-101,1.0,5,periodic,150,82,71
+20261104-115833-matched-arrivals-seed-101,1.0,5,poisson-matched,150,82,71
+20261104-125358-matched-arrivals-seed-202,1.5,3,periodic,150,76,68
+20261104-125358-matched-arrivals-seed-202,1.5,3,poisson-matched,150,76,68
+20261104-125358-matched-arrivals-seed-202,1.0,5,periodic,150,82,71
+20261104-125358-matched-arrivals-seed-202,1.0,5,poisson-matched,150,82,71
+20261104-131132-matched-arrivals-seed-303,1.5,3,periodic,150,76,68
+20261104-131132-matched-arrivals-seed-303,1.5,3,poisson-matched,150,76,68
+20261104-131132-matched-arrivals-seed-303,1.0,5,periodic,150,82,71
+20261104-131132-matched-arrivals-seed-303,1.0,5,poisson-matched,150,82,71

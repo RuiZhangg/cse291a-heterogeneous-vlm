@@ -1,0 +1,27 @@
+
+===== CPU =====
+Compile time: 0.017 s
+Execution devices: ['CPU']
+First inference: 1.24 ms
+Warm mean: 0.1 ms
+Output shape: (1, 8, 64, 64)
+Output mean: 0.264404296875
+Status: SUCCESS
+
+===== GPU =====
+Compile time: 0.214 s
+Execution devices: ['GPU.0']
+First inference: 1.02 ms
+Warm mean: 0.11 ms
+Output shape: (1, 8, 64, 64)
+Output mean: 0.264404296875
+Status: SUCCESS
+
+===== NPU =====
+Compile time: 0.129 s
+Execution devices: NPU
+First inference: 5.32 ms
+Warm mean: 0.14 ms
+Output shape: (1, 8, 64, 64)
+Output mean: 0.264404296875
+Status: SUCCESS

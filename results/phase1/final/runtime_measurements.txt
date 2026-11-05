@@ -1,0 +1,120 @@
+vision_embeddings_model GPU compile_s 1.339 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.103 execution_devices NPU
+text_embeddings_model GPU compile_s 0.057 execution_devices ['GPU.0']
+language_model GPU compile_s 1.071 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 1846584
+vision_embeddings_model GPU compile_s 1.336 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.104 execution_devices NPU
+text_embeddings_model GPU compile_s 0.056 execution_devices ['GPU.0']
+language_model GPU compile_s 1.09 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 1849748
+vision_embeddings_model GPU compile_s 1.308 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.104 execution_devices NPU
+text_embeddings_model GPU compile_s 0.057 execution_devices ['GPU.0']
+language_model GPU compile_s 1.086 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 1850368
+vision_embeddings_model GPU compile_s 1.349 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.104 execution_devices NPU
+text_embeddings_model GPU compile_s 0.058 execution_devices ['GPU.0']
+language_model GPU compile_s 1.083 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 1883864
+vision_embeddings_model GPU compile_s 1.332 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.103 execution_devices NPU
+text_embeddings_model GPU compile_s 0.059 execution_devices ['GPU.0']
+language_model GPU compile_s 1.084 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 2324648
+vision_embeddings_model GPU compile_s 1.32 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.104 execution_devices NPU
+text_embeddings_model GPU compile_s 0.057 execution_devices ['GPU.0']
+language_model GPU compile_s 1.084 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 2340688
+vision_embeddings_model GPU compile_s 1.324 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.104 execution_devices NPU
+text_embeddings_model GPU compile_s 0.056 execution_devices ['GPU.0']
+language_model GPU compile_s 1.073 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 2330468
+vision_embeddings_model GPU compile_s 1.314 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.103 execution_devices NPU
+text_embeddings_model GPU compile_s 0.058 execution_devices ['GPU.0']
+language_model GPU compile_s 1.096 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 2366760
+vision_embeddings_model GPU compile_s 1.276 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.102 execution_devices NPU
+text_embeddings_model GPU compile_s 0.056 execution_devices ['GPU.0']
+language_model GPU compile_s 1.087 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 1859528
+vision_embeddings_model GPU compile_s 1.381 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.103 execution_devices NPU
+text_embeddings_model GPU compile_s 0.056 execution_devices ['GPU.0']
+language_model GPU compile_s 1.051 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 1826768
+vision_embeddings_model GPU compile_s 1.307 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.103 execution_devices NPU
+text_embeddings_model GPU compile_s 0.058 execution_devices ['GPU.0']
+language_model GPU compile_s 1.074 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 1840204
+vision_embeddings_model GPU compile_s 1.294 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.104 execution_devices NPU
+text_embeddings_model GPU compile_s 0.057 execution_devices ['GPU.0']
+language_model GPU compile_s 1.08 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 1883156
+vision_embeddings_model GPU compile_s 1.317 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.102 execution_devices NPU
+text_embeddings_model GPU compile_s 0.058 execution_devices ['GPU.0']
+language_model GPU compile_s 1.086 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 2326724
+vision_embeddings_model GPU compile_s 1.305 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.104 execution_devices NPU
+text_embeddings_model GPU compile_s 0.056 execution_devices ['GPU.0']
+language_model GPU compile_s 1.056 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 2331816
+vision_embeddings_model GPU compile_s 1.326 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.103 execution_devices NPU
+text_embeddings_model GPU compile_s 0.058 execution_devices ['GPU.0']
+language_model GPU compile_s 1.054 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 2319428
+vision_embeddings_model GPU compile_s 1.334 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.104 execution_devices NPU
+text_embeddings_model GPU compile_s 0.058 execution_devices ['GPU.0']
+language_model GPU compile_s 1.094 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 2349464
+vision_embeddings_model GPU compile_s 1.307 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.104 execution_devices NPU
+text_embeddings_model GPU compile_s 0.058 execution_devices ['GPU.0']
+language_model GPU compile_s 1.088 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 1849620
+vision_embeddings_model GPU compile_s 1.358 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.103 execution_devices NPU
+text_embeddings_model GPU compile_s 0.058 execution_devices ['GPU.0']
+language_model GPU compile_s 1.09 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 1857572
+vision_embeddings_model GPU compile_s 1.349 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.103 execution_devices NPU
+text_embeddings_model GPU compile_s 0.058 execution_devices ['GPU.0']
+language_model GPU compile_s 1.079 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 1854556
+vision_embeddings_model GPU compile_s 1.329 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.103 execution_devices NPU
+text_embeddings_model GPU compile_s 0.057 execution_devices ['GPU.0']
+language_model GPU compile_s 1.068 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 1907756
+vision_embeddings_model GPU compile_s 1.306 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.104 execution_devices NPU
+text_embeddings_model GPU compile_s 0.058 execution_devices ['GPU.0']
+language_model GPU compile_s 1.104 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 2348596
+vision_embeddings_model GPU compile_s 1.345 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.104 execution_devices NPU
+text_embeddings_model GPU compile_s 0.057 execution_devices ['GPU.0']
+language_model GPU compile_s 1.075 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 2321864
+vision_embeddings_model GPU compile_s 1.345 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.104 execution_devices NPU
+text_embeddings_model GPU compile_s 0.058 execution_devices ['GPU.0']
+language_model GPU compile_s 1.071 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 2339704
+vision_embeddings_model GPU compile_s 1.311 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.104 execution_devices NPU
+text_embeddings_model GPU compile_s 0.058 execution_devices ['GPU.0']
+language_model GPU compile_s 1.076 execution_devices ['GPU.0']
+	Maximum resident set size (kbytes): 2363520

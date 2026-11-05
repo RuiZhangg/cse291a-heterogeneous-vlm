@@ -1,0 +1,9 @@
+rate	tiles	mode	device	exit_code
+1.5	3	periodic	GPU	0
+1.5	3	periodic	NPU	0
+1.5	3	poisson-matched	GPU	0
+1.5	3	poisson-matched	NPU	0
+1.0	5	periodic	GPU	0
+1.0	5	periodic	NPU	0
+1.0	5	poisson-matched	GPU	0
+1.0	5	poisson-matched	NPU	0

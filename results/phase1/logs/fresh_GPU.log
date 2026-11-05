@@ -1,0 +1,8 @@
+PROFILE device GPU python 3.12.3 ov 2026.1.0-21367-63e31528c62-releases/2026/1
+PROFILE from_script_start_to_import_s 0.122
+PROFILE core_creation_s 0.001
+PROFILE read_and_static_reshape_s 0.023
+PROFILE compiled_in_s 1.514 cache_policy explicit_unique_cache_dir devices ['GPU.0']
+PROFILE first_infer_ms 79.26
+PROFILE warm_5_avg_ms 67.88
+PROFILE script_elapsed_s 2.091

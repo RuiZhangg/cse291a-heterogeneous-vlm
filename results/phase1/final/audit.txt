@@ -1,0 +1,16 @@
+PHASE 1 RAW-DATA AUDIT
+=====================
+matched: 3 run directories
+matrix: 1 run directories
+rates: 1 run directories
+prompt: 1 run directories
+Parsed profile configs: 52
+Parsed matched-arrival seed configurations: 24
+Parsed prompt configs: 12
+Compiler observations: 256
+Matched output comparisons: 12
+Max RSS observations: 52
+
+NOT YET VERIFIED AUTOMATICALLY: startup/init time distinct from compilation; actual host->device transfer; GPU/NPU device memory; source image provenance/checkpoint revision; full source snapshots.
+
+WARNINGS:

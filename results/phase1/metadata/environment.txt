@@ -1,0 +1,18 @@
+2026-11-04T17:20:18-08:00
+wuklab-NUC16
+6a38b2876feb5642577cec5987af97da7dfba804
+?? results/phase1/
+?? src/analyze_matched_arrivals.py
+?? src/analyze_phase1_matrix.py
+?? src/analyze_rate_sweep.py
+?? src/build_matched_arrivals.py
+?? src/check_phase1_queue_growth.py
+?? src/pipeline_arrival_matched.py
+?? src/pipeline_prompt_length.py
+?? src/run_matched_arrivals.sh
+?? src/run_phase1_matrix.sh
+?? src/run_phase1_rate_sweep.sh
+Python 3.12.3
+2026.1.0-21367-63e31528c62-releases/2026/1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  457G  405G   29G  94% /

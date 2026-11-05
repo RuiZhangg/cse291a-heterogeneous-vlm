@@ -1,0 +1,19 @@
+vision_embeddings_model GPU compile_s 1.344 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.104 execution_devices NPU
+text_embeddings_model GPU compile_s 0.057 execution_devices ['GPU.0']
+language_model GPU compile_s 1.065 execution_devices ['GPU.0']
+Loaded video frames: 40
+Image tiles per frame: 5 grid tiles: 4 thumbnail: True
+Warmups: 2
+Warmup caption: An empty room with wooden flooring and white walls.
+Worker mode: serial Assignment: alternating GPU/NPU
+Completed: 150 Throughput: 0.894 requests/s
+e2e_ms p50 999.33 p95 1707.44
+vision_wait_ms p50 0.12 p95 807.21
+vision_ms p50 549.67 p95 559.32
+decoder_wait_ms p50 0.1 p95 0.21
+prep_ms p50 2.52 p95 3.02
+ttft_ms p50 301.38 p95 337.81
+decode_ms p50 405.39 p95 492.13
+Captions identical: False
+CSV: runs/20261104-111556-phase1-rate-sweep-seed-101/rate-1.0/tiles-5/NPU/results.csv

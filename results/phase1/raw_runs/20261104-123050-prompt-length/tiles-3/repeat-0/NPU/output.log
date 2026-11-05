@@ -1,0 +1,21 @@
+vision_embeddings_model GPU compile_s 1.322 execution_devices ['GPU.0']
+vision_embeddings_model NPU compile_s 0.104 execution_devices NPU
+text_embeddings_model GPU compile_s 0.058 execution_devices ['GPU.0']
+language_model GPU compile_s 1.063 execution_devices ['GPU.0']
+Loaded video frames: 40
+Text question tokens: 11
+Image tiles per frame: 3 grid tiles: 2 thumbnail: True
+Warmups: 2
+Warmup caption: An empty
+Arrival mode: periodic Planned duration s: 59.333
+Worker mode: serial Assignment: alternating GPU/NPU
+Completed: 90 Throughput: 1.503 requests/s
+e2e_ms p50 552.92 p95 557.35
+vision_wait_ms p50 0.08 p95 0.13
+vision_ms p50 361.61 p95 366.22
+decoder_wait_ms p50 0.1 p95 0.19
+prep_ms p50 1.89 p95 2.12
+ttft_ms p50 169.94 p95 170.63
+decode_ms p50 187.9 p95 188.63
+Captions identical: False
+CSV: runs/20261104-123050-prompt-length/tiles-3/repeat-0/NPU/results.csv

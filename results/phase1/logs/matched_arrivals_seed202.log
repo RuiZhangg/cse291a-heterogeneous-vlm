@@ -1,0 +1,57 @@
+======================================
+3 tiles | 1.5 req/s | periodic | GPU
+Arrival mode: periodic Planned duration s: 99.333
+Completed: 150 Throughput: 1.502 requests/s
+e2e_ms p50 453.67 p95 509.59
+vision_wait_ms p50 0.12 p95 0.22
+decoder_wait_ms p50 0.11 p95 0.18
+======================================
+3 tiles | 1.5 req/s | periodic | NPU
+Arrival mode: periodic Planned duration s: 99.333
+Completed: 150 Throughput: 1.5 requests/s
+e2e_ms p50 610.63 p95 669.87
+vision_wait_ms p50 0.08 p95 0.13
+decoder_wait_ms p50 0.1 p95 0.19
+======================================
+3 tiles | 1.5 req/s | poisson-matched | GPU
+Arrival mode: poisson-matched Planned duration s: 99.333
+Completed: 150 Throughput: 1.495 requests/s
+e2e_ms p50 793.69 p95 2426.08
+vision_wait_ms p50 0.12 p95 266.54
+decoder_wait_ms p50 146.53 p95 1679.95
+======================================
+3 tiles | 1.5 req/s | poisson-matched | NPU
+Arrival mode: poisson-matched Planned duration s: 99.333
+Completed: 150 Throughput: 1.5 requests/s
+e2e_ms p50 675.38 p95 1177.72
+vision_wait_ms p50 0.14 p95 537.57
+decoder_wait_ms p50 0.11 p95 45.18
+======================================
+5 tiles | 1.0 req/s | periodic | GPU
+Arrival mode: periodic Planned duration s: 149.0
+Completed: 150 Throughput: 1.002 requests/s
+e2e_ms p50 712.52 p95 761.52
+vision_wait_ms p50 0.13 p95 0.22
+decoder_wait_ms p50 0.1 p95 0.15
+======================================
+5 tiles | 1.0 req/s | periodic | NPU
+Arrival mode: periodic Planned duration s: 149.0
+Completed: 150 Throughput: 1.001 requests/s
+e2e_ms p50 924.53 p95 976.77
+vision_wait_ms p50 0.09 p95 0.12
+decoder_wait_ms p50 0.1 p95 0.21
+======================================
+5 tiles | 1.0 req/s | poisson-matched | GPU
+Arrival mode: poisson-matched Planned duration s: 149.0
+Completed: 150 Throughput: 0.996 requests/s
+e2e_ms p50 1285.97 p95 4253.74
+vision_wait_ms p50 0.13 p95 513.19
+decoder_wait_ms p50 375.03 p95 3167.09
+======================================
+5 tiles | 1.0 req/s | poisson-matched | NPU
+Arrival mode: poisson-matched Planned duration s: 149.0
+Completed: 150 Throughput: 0.999 requests/s
+e2e_ms p50 1014.29 p95 1948.18
+vision_wait_ms p50 0.66 p95 1017.46
+decoder_wait_ms p50 0.1 p95 0.21
+Results: runs/20261104-125358-matched-arrivals-seed-202

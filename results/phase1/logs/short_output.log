@@ -1,0 +1,41 @@
+==== tiles=3 rate=1.5 mode=periodic device=GPU ====
+Completed: 150 Throughput: 1.504 requests/s
+e2e_ms p50 397.77 p95 399.27
+vision_wait_ms p50 0.11 p95 0.22
+decoder_wait_ms p50 0.1 p95 0.15
+==== tiles=3 rate=1.5 mode=periodic device=NPU ====
+Completed: 150 Throughput: 1.502 requests/s
+e2e_ms p50 552.39 p95 557.22
+vision_wait_ms p50 0.08 p95 0.15
+decoder_wait_ms p50 0.1 p95 0.2
+==== tiles=3 rate=1.5 mode=poisson-matched device=GPU ====
+Completed: 150 Throughput: 1.501 requests/s
+e2e_ms p50 597.58 p95 1430.39
+vision_wait_ms p50 0.11 p95 303.54
+decoder_wait_ms p50 0.14 p95 634.95
+==== tiles=3 rate=1.5 mode=poisson-matched device=NPU ====
+Completed: 150 Throughput: 1.502 requests/s
+e2e_ms p50 591.52 p95 1034.05
+vision_wait_ms p50 0.14 p95 504.79
+decoder_wait_ms p50 0.1 p95 0.18
+==== tiles=5 rate=1.0 mode=periodic device=GPU ====
+Completed: 150 Throughput: 1.002 requests/s
+e2e_ms p50 652.13 p95 653.92
+vision_wait_ms p50 0.12 p95 0.21
+decoder_wait_ms p50 0.1 p95 0.14
+==== tiles=5 rate=1.0 mode=periodic device=NPU ====
+Completed: 150 Throughput: 1.001 requests/s
+e2e_ms p50 865.11 p95 866.01
+vision_wait_ms p50 0.08 p95 0.15
+decoder_wait_ms p50 0.1 p95 0.17
+==== tiles=5 rate=1.0 mode=poisson-matched device=GPU ====
+Completed: 150 Throughput: 1.0 requests/s
+e2e_ms p50 948.04 p95 2350.71
+vision_wait_ms p50 0.13 p95 705.75
+decoder_wait_ms p50 0.2 p95 649.1
+==== tiles=5 rate=1.0 mode=poisson-matched device=NPU ====
+Completed: 150 Throughput: 1.0 requests/s
+e2e_ms p50 924.29 p95 1808.82
+vision_wait_ms p50 0.14 p95 933.51
+decoder_wait_ms p50 0.1 p95 0.19
+Results: runs/20261104-202850-short-output-ablation

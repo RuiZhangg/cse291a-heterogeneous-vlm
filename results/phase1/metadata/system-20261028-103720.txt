@@ -1,0 +1,54 @@
+===== SYSTEM =====
+wuklab-NUC16
+wuklab
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+x86_64
+
+===== CPU =====
+Architecture:                            x86_64
+CPU(s):                                  16
+On-line CPU(s) list:                     0-15
+Model name:                              Intel(R) Core(TM) Ultra 7 356H
+CPU(s) scaling MHz:                      50%
+NUMA node0 CPU(s):                       0-15
+
+===== MEMORY AND DISK =====
+               total        used        free      shared  buff/cache   available
+Mem:            93Gi        21Gi        17Gi       192Mi        55Gi        72Gi
+Swap:          8.0Gi       626Mi       7.4Gi
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2  457G  394G   40G  91% /
+
+===== GPU AND NPU =====
+00:02.0 VGA compatible controller: Intel Corporation Device b0a0
+00:0b.0 Processing accelerators: Intel Corporation Device b03e (rev 0f)
+/dev/accel:
+total 0
+crw-rw---- 1 root render 261, 0 Sep 30 09:12 accel0
+
+/dev/dri:
+total 0
+drwxr-xr-x  2 root root         80 Sep 28 16:07 by-path
+crw-rw----+ 1 root video  226,   1 Sep 30 09:12 card1
+crw-rw----+ 1 root render 226, 128 Sep 30 09:12 renderD128
+
+===== SOFTWARE =====
+/usr/bin/python3
+Python 3.12.3
+/usr/bin/docker
+/usr/bin/ffmpeg
+
+===== PYTHON PACKAGES =====
+openvino: not installed
+openvino_genai: not installed
+torch: not installed
+transformers: not installed
+cv2: not installed
+numpy: not installed
+optimum: not installed
+OpenVINO device detection: ModuleNotFoundError("No module named 'openvino'")
